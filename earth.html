@@ -20,6 +20,8 @@
             id="Earth_button"
             name="Земля-Марс"
             value="Earth_button"
+            checked
+            type="radio"
           />Земля</label
         >
         <label
@@ -36,7 +38,28 @@
 
       <fieldset>
         <legend>Характеристики планет</legend>
-        <input type="checkbox" /> С атмосферой
+        <input
+          id="Hot"
+          type="checkbox"
+          name="characteristic"
+          value="Hot"
+          checked
+          type="checkbox"
+        />
+        <label for="Hot">Hot</label>
+        <input 
+          id="Cold"
+          type="checkbox"
+          name="characteristic"
+          value="Cold" />
+        <label for="Cold">Cold</label>
+        <input
+          id="Gas"
+          type="checkbox"
+          name="characteristic"
+          value="Gas"
+        />
+        <label for="Gas">Gas</label>
       </fieldset>
 
       <h1><strong>Земля</strong></h1>

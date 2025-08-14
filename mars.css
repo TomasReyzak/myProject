@@ -6,3 +6,8 @@ img {
     display: block;
     object-fit: contain;
 }
+
+#info {
+    width: auto;
+    background-color: burlywood;
+}

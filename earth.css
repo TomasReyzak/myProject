@@ -1,9 +1,14 @@
 img {
-    max-width: min(95vw, 1000px);
-    max-height: 90vw;
-    width: auto;
-    height: auto;
-    display: block;
-    object-fit: contain;
+  max-width: min(95vw, 1000px);
+  max-height: 90vw;
+  width: auto;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+body {
+  background-image: url(images/stars.webp);
+  color: rgb(4, 203, 230);
 }
 

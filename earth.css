@@ -1,4 +1,4 @@
-img {
+#ИзображениеЗемли, #ИзображениеМатериковЗемли {
   max-width: min(95vw, 1000px);
   max-height: 90vw;
   width: auto;

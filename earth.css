@@ -3,12 +3,18 @@
   max-height: 90vw;
   width: auto;
   height: auto;
-  display: block;
+  display:block;
   object-fit: contain;
 }
 
 body {
   background-image: url(images/stars.webp);
-  color: rgb(4, 203, 230);
+  color: rgb(199, 230, 235);
 }
 
+main {
+  width: 80%;
+  background-color: rgb(12, 19, 82);
+  margin-left: auto;
+  margin-right: auto;
+}
